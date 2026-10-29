@@ -37,6 +37,17 @@ class AppStyles {
     fontSize: 11,
   );
 
+  static final TextStyle valueDataText = TextStyle(
+    color: AppStyles.darkText,
+    fontSize: 15,
+    fontWeight: .bold,
+  );
+
+  static final TextStyle labelDataText = TextStyle(
+    color: AppStyles.greyText,
+    fontSize: 12,
+  );
+
   static final TextStyle sectionText = TextStyle(
     color: AppStyles.darkText,
     fontSize: 19,
@@ -47,6 +58,12 @@ class AppStyles {
     color: AppStyles.greyText,
     fontSize: 15,
     height: 1.5,
+  );
+
+  static final TextStyle startButtonText = TextStyle(
+    color: AppStyles.green,
+    fontSize: 16,
+    fontWeight: .bold,
   );
 
   static final Gradient imageShade = LinearGradient(
